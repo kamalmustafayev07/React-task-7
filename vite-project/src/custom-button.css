@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+.btn{
+    padding:10px 40px;
+    background-color:chartreuse;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 10px;
+}
+
+.buttons-container{
+    display: flex;
+    gap:20px;
+}
+
+.warn{
+    max-width: 60px;
+    text-align: center;
+    margin-left: 30px;
+}
+.red{
+    background-color: red;
+}
+
+.cursive-text{
+    font-style: italic;
+}
+
+.pop{
+    margin-top: 10px;
+    border: 1px solid gray;
+    padding:5px;
+}
