@@ -17,7 +17,7 @@ function CustomButton({text,warnMessage,hint}){
             onClick={clickHandle}
             onMouseOver={()=>setMouseOver(true)}
             onMouseLeave={()=>setMouseOver(false)}
-            className={`btn ${warnMessage!=null ? 'red': ''} ${hint!=null ? 'cursive-text' : ''}`}>{text}
+            className={`btn ${warnMessage!=null && clicked && 'red'} ${hint!=null ? 'cursive-text' : ''}`}>{text}
             </button>
             {clicked && warnMessage!=null && <p className="warn">{warnMessage}</p>}
             {hint!=null && mouseOver && <p className='pop'>{hint}</p>}
